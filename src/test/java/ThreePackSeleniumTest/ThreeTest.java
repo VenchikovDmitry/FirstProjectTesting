@@ -1,10 +1,16 @@
 package ThreePackSeleniumTest;
 
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
 import org.testng.annotations.Test;
 import pageObject.InitePage;
 
 public class ThreeTest extends  BaseClass{
     @Test
+    @Epic("Селениум")
+    @Feature("Гугле тетс")
+    @Story("Проверяем картинки")
     public void TestFun()
     {
        // getDriver().get("https://www.google.ru/");

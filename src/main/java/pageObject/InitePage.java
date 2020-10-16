@@ -11,7 +11,9 @@ public class InitePage extends BaseClass {
         super(driver);
 
     }
-    @FindBy(xpath = ".//input[@title='Поиск']")
+   // @FindBy(xpath = ".//input[@title='Поиск']")
+   // @FindBy(xpath = ".//h3[@class='LC20lb DKV0Md']")
+   @FindBy(xpath = ".//h3[@class='LC20lb DKV0Md']")
     private WebElement setSearchText;
 
     @FindBy(xpath = "(.//input[@value='Поиск в Google'])[1]")
