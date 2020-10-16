@@ -60,10 +60,10 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.1</version>
                 <configuration>
-
-                    <suiteXmlFiles>
+                    <!--  <suiteXmlFiles>
                         <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
-                    </suiteXmlFiles>
+                    </suiteXmlFiles> -->
+
 
                     <forkCount>${fork.Count}</forkCount>
                     <reuseForks>true</reuseForks>
